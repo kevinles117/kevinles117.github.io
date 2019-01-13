@@ -3,15 +3,22 @@
 *{
     padding: 0;
     margin: 20px auto;
-    }
+}
+
+header {
+    background-color: gray;
+    margin-left: 450px;
+}
 
 body {
   background-color: blue;
   font-family: Verdana, helvetica, arial;
   font-size: 100%;
+  float: left;
 }
 
 #wrapper {
+  background-color: yellow;
   width: 940px;
   margin: 0 auto;
   background: rgba(255, 255, 255, .93);
@@ -22,6 +29,10 @@ body {
 
 img {
   width: 400px;
-  float: left;
+  float: right;
   margin: 0 30px 20px 0;
+}
+
+button {
+  margin-top: 50px;
 }
