@@ -14,7 +14,11 @@ body {
   background-color: blue;
   font-family: Verdana, helvetica, arial;
   font-size: 100%;
-  float: left;
+}
+
+p {
+  text-align: left;
+  clear: both;
 }
 
 #wrapper {
