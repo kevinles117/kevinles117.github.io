@@ -7,7 +7,7 @@
 
 header {
     background-color: gray;
-    margin-left: 450px;
+    margin: 450px auto;
 }
 
 body {
@@ -18,10 +18,9 @@ body {
 }
 
 #wrapper {
-  background-color: yellow;
+  background: yellow;
   width: 940px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, .93);
   padding: 20px;
   overflow: hidden;
   border: 10px
