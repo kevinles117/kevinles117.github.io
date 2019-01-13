@@ -18,7 +18,7 @@ body {
 
 p {
   text-align: left;
-  clear: both;
+  float:left;
 }
 
 #wrapper {
@@ -37,5 +37,5 @@ img {
 }
 
 button {
-  margin-top: 50px;
+  
 }
