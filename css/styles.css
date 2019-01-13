@@ -6,8 +6,8 @@
 }
 
 header {
-    background-color: gray;
-    margin: 450px auto;
+    line-height: 30px;
+    height: 30px;
 }
 
 body {
@@ -22,6 +22,7 @@ h1 {
 
 p {
   text-align: left;
+  line-height: 1.4;
 }
 
 #wrapper {
