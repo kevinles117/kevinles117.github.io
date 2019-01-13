@@ -1,0 +1,27 @@
+/*Styles for my index.html for assignment 1*/
+
+*{
+    padding: 0;
+    margin: 20px auto;
+    }
+
+body {
+  background-color: blue;
+  font-family: Verdana, helvetica, arial;
+  font-size: 100%;
+}
+
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .93);
+  padding: 20px;
+  overflow: hidden;
+  border: 10px
+}
+
+img {
+  width: 400px;
+  float: left;
+  margin: 0 30px 20px 0;
+}
