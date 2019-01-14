@@ -1,4 +1,12 @@
 function getDate() {
-var dt = new Date();
-alert(("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+var dt = new Date(unix_timestamp*1000);
+
+var hours = dt.getHours();
+
+var minutes = "0" + dt.getMinutes();
+
+var seconds = "0" + dt.getSeconds();
+
+var formattedTime = hours + ":" + minutes.substr(-2) + ":" + seconds.substr(-2);
+alert(formattedTime);
 }
