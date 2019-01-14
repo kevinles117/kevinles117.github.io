@@ -4,10 +4,6 @@
   margin: 20px auto;
 }
 
-header {
-  padding-left: 400px;
-}
-
 body {
   background: blue;
 }
@@ -22,14 +18,15 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 3em;
 }
 
 p {
   text-align: left;
+  float: left;
   line-height: 1.4;
   font-size: 1em;
-  clear:both;
 }
 
 .right {
