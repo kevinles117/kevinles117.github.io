@@ -8,5 +8,5 @@ var minutes = "0" + dt.getMinutes();
 var seconds = "0" + dt.getSeconds();
 
 var formattedTime = hours + ":" + minutes.substr(-2) + ":" + seconds.substr(-2);
-alert(formattedTime);
+alert(getDate());
 }
