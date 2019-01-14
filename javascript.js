@@ -1,11 +1,11 @@
 function getDateandTime() {
-var dt = new Date();
+  var dt = new Date();
 
-var formattedTime = dt.getDate() + "/"
+  var formattedTime = dt.getDate() + "/"
                 + (dt.getMonth() + 1)  + "/"
                 + dt.getFullYear() + " @ "
                 + dt.getHours() + ":"
                 + dt.getMinutes() + ":"
                 + dt.getSeconds();
-alert(formattedTime);
+  return [alert(formattedTime)]
 }
