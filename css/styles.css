@@ -12,7 +12,7 @@ body {
 
 #wrapper {
   background: yellow;
-  width: 1520px;
+  width: 940px;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  margin-left: 300px;
+  text-align: center;
   font-size: 3em;
   font: arial;
 }
@@ -33,7 +33,6 @@ img {
 
 p {
   line-height: 1.4;
-  float: left;
   font-size: 1em;
 }
 
