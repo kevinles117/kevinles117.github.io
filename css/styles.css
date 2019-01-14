@@ -12,7 +12,7 @@ body {
 
 #wrapper {
   background: yellow;
-  width: 940px;
+  width: 1520px;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
@@ -20,8 +20,9 @@ body {
 }
 
 h1 {
-    font-size: 3em;
-    font: arial;
+  margin-left: 300px;
+  font-size: 3em;
+  font: arial;
 }
 
 img {
