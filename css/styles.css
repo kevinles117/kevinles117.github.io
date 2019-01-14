@@ -1,29 +1,11 @@
 /*Styles for my index.html for assignment 1*/
 
-*{
-    padding: 0;
+* {
     margin: 20px auto;
 }
 
 header {
-    line-height: 30px;
-    height: 30px;
-    padding-left: 400px;
-
-body {
-  background-color: blue;
-  font-family: Verdana, helvetica, arial;
-  font-size: 100%;
-}
-
-h1 {
-  clear: both;
-}
-
-p {
-  text-align: left;
-  line-height: 1.4;
-  font-size: 1em;
+    margin-left: 400px;
 }
 
 #wrapper {
@@ -33,6 +15,16 @@ p {
   padding: 20px;
   overflow: hidden;
   border: 10px
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1em;
 }
 
 .right {
