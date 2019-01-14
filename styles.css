@@ -1,0 +1,46 @@
+/*Styles for my index.html for assignment 1*/
+
+* {
+  margin: 20px auto;
+}
+
+body {
+  background: blue;
+  font-family: Verdana, helvetica;
+  font-size: 100%;
+}
+
+#wrapper {
+  background: yellow;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  border: 10px
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font: arial;
+}
+
+img {
+  display: block;
+  width: 400px;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+p {
+  line-height: 1.4;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
