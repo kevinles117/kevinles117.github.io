@@ -26,8 +26,6 @@ h1 {
 }
 
 p {
-  text-align: left;
-  float: left;
   line-height: 1.4;
   font-size: 1em;
 }
@@ -39,5 +37,6 @@ p {
 }
 
 button {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
 }
