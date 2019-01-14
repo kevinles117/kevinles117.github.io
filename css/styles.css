@@ -27,7 +27,7 @@ h1 {
 
 img {
   display: block;
-  width: 300px;
+  width: 400px;
   float: right;
   margin-right: 10px;
   margin-left: 10px;
@@ -41,5 +41,7 @@ p {
 
 button {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -104.5px;
 }
